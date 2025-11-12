@@ -6,4 +6,4 @@ for i in range(122, 96, -1):
         result += chr(i)
     else:
         result += chr(i - 32)
-print("{}".format(result))
+print("{}".format(result), end="")
