@@ -5,5 +5,3 @@ def add(a, b):
     b = 2
     return f"{a} + {b} = {a + b}"
 
-
-print(add(1, 2))
