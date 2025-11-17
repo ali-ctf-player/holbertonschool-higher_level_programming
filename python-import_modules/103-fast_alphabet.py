@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 from sys import stdout
-stdout.write(''.join(map(chr, range(65, 91))) + '\n')
+stdout.write(bytes(range(65, 91)).decode() + '\n')
