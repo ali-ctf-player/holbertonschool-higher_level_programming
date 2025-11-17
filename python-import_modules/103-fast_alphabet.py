@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-from sys import stdout
-stdout.write(bytes(range(65, 91)).decode() + '\n')
+import sys
+print(*map(chr, range(65, 91)), sep=chr(0)*0)
