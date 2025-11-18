@@ -6,10 +6,9 @@ def safe_print_list(mylist, x=0):
         for i in range(x):
             print(mylist[i], end="")
             count += 1
-        print()
     except IndexError:
-        print()
         pass
+    print()
     return count
 
 my_list = [1, 2, 3, 4, 5]
