@@ -16,6 +16,4 @@ class MyList(list):
         Does not modify the original list
         """
         # Create a copy of the list and sort it
-        sorted_list = self.copy()
-        sorted_list.sort()
-        print(sorted_list)
+        print(sorted(self))
