@@ -4,6 +4,6 @@
 
 class BaseGeometry:
     """It is doc string of class"""
-    
+
     def area(self):
         raise Exception("area() is not implemented")
