@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""It is doc string of python inheritance"""
+"""MyList module"""
 
 
 class MyList(list):
-    """It is inside of MyList class"""
+    """A custom list that can print a sorted version"""
 
     def print_sorted(self):
-        """It is inside of function"""
+        """Prints the list sorted in ascending order"""
         print(sorted(self))
