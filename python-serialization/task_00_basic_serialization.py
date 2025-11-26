@@ -8,8 +8,8 @@ def serialize_and_save_to_file(data, filename):
     try:
         with open(filename, 'wb') as file:
             pickle.dump(data, file)
-    except (pickle.PickleError, TypeError) as e:
-        raise TypeError()
+    except Exception:
+        raise Exception()
 
 
 def load_and_deserialize(filename):
