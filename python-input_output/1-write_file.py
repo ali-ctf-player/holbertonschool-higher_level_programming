@@ -7,3 +7,4 @@ def write_file(filename="", text=''):
     with open(filename, 'w', encoding="utf-8") as f:
         content = str(text)
         f.write(content)
+        return len(content)
