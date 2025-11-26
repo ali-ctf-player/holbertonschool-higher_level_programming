@@ -1,19 +1,15 @@
 #!/usr/bin/python3
-"""It is doc string"""
-
+import pickle
 
 def serialize_and_save_to_file(data, filename):
-    """It is doc string"""
-    import pickle
+    """Serializes data and saves it to a file"""
     try:
         with open(filename, 'wb') as file:
             pickle.dump(data, file)
-    except (pickle.PickleError, TypeError) as e:
-        raise TypeError()
-
+    except (TypeError, pickle.PickleError, AttributeError):
+        raise TypeError("Object is not serializable")
 
 def load_and_deserialize(filename):
-    """It is doc string"""
-    import pickle
+    """Loads and deserializes data from a file"""
     with open(filename, 'rb') as file:
-        return pickle.loads(file.read())
+        return pickle.load(file)
