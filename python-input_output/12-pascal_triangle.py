@@ -3,6 +3,7 @@
 
 
 def pascal_triangle(n):
+    """It is doc string"""
     results = []
     if n <= 0:
         return result
