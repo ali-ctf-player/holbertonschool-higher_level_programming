@@ -9,11 +9,11 @@ def serialize_to_xml(dictionary, filename):
         root = ET.Element("data")
 
         for key, value in dictionary.items():
-            child = ET.SubElement(key)
+            child = ET.SubElement(root, key)
             child.text = str(value)
 
         tree = ET.ElementTree(root)
-
+        ET.indent(tree, space="    ", level=0)
         tree.write(filename, encoding='utf-8', xml_declaration=True)
     except Exception as e:
         print(f"Error serializing to XML: {e}")
