@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""It is doc string"""
+
+
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 
