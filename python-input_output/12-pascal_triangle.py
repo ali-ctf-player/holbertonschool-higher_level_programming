@@ -6,10 +6,8 @@ def pascal_triangle(n):
     """It is doc string"""
     results = []
     if n <= 0:
-        return result
+        return []
     else:
-        result.append(1)
-        results.append(result)
         for i in range(n):
             result = []
             for x in range(i + 1):
