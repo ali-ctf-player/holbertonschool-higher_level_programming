@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """it is doc string"""
 
 
