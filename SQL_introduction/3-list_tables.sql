@@ -1,2 +1,2 @@
 --List all tables
-SHOW TABLES;
+SELECT * FROM information_schema.tables;
