@@ -1,2 +1,3 @@
 --List all tables
-SELECT * FROM information_schema.tables;
+use mysql;
+SHOW TABLES:
