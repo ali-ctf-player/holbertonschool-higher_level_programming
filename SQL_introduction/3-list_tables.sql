@@ -1,3 +1,3 @@
 --List all tables
 use mysql;
-SHOW TABLES:
+SHOW TABLES;
