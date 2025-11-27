@@ -1,3 +1,3 @@
---List all tables
+-- List all tables
 SHOW TABLES;
 
