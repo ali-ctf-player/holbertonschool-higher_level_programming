@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""It is doc string"""
 
 import sys
 import urllib.request
