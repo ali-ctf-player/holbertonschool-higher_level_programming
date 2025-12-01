@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import urllib.request
 
 req = urllib.request.Request('https://intranet.hbtn.io/status')
