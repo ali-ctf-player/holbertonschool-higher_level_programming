@@ -1,0 +1,10 @@
+[
+    {"id": 1, "name": "Laptop", "category": "Electronics", "price": 799.99},
+    {"id": 2, "name": "Coffee Mug", "category": "Home Goods", "price": 15.99},
+    {"id": 3, "name": "Wireless Mouse", "category": "Electronics", "price": 29.99},
+    {"id": 4, "name": "Desk Lamp", "category": "Home Goods", "price": 24.99},
+    {"id": 5, "name": "Python Programming Book", "category": "Books", "price": 39.99},
+    {"id": 6, "name": "Bluetooth Headphones", "category": "Electronics", "price": 89.99},
+    {"id": 7, "name": "Notebook", "category": "Stationery", "price": 12.99},
+    {"id": 8, "name": "Water Bottle", "category": "Home Goods", "price": 18.99}
+]
